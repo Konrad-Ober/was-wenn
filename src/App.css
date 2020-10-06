@@ -1,0 +1,810 @@
+
+.App {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: rgb(237, 243, 159);
+  min-height: 710px ;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+
+  position: relative;
+  background-color: #1038c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+  width: 99%;
+  font-size: calc(10px + 2vmin);
+  color: lightgray;
+}
+.Corona {
+  margin: 5px 5px;
+}
+.GMV {
+  position: relative;
+  margin: 0px;
+  border:0px solid red;
+
+}
+
+.content {
+  position: relative;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  height: 30px;
+  width: 100%;
+  bottom: 15px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+
+  justify-content: space-around;
+  align-items: center;
+  color: green;
+  background-color: #7ceb94;
+}
+
+.nav-links {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3px 0;
+  justify-content: space-between; 
+  align-items: space-between;
+  list-style: none;
+  border: 0px solid red;
+  
+}
+
+
+.links {
+  position: relative;
+  right: 18px;
+  display: inline-flex;
+  justify-content: center; 
+  align-self: center;
+  padding:0px 2px;
+  margin: 0px 3px;
+  background-color: lightcoral;
+  color: white;
+  width: 90px;
+  font-size: 16px;
+  outline:1px solid white; 
+  
+}
+
+#linksImp {
+  background-color: transparent
+}
+
+.Nav {
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  max-width: 100%;
+}
+.homeApp {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: start; 
+  align-items: center;
+
+  height: 100%;
+  max-width: 100%;
+  margin-bottom: 50px;
+}
+
+.Ein {
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: flex-start;
+  text-align: inline-block;
+  width: 350px;
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 0px solid blue;
+}
+
+
+
+h2 {
+  text-align: center;
+}
+
+.Einleitung {
+  position: relative;
+  top: 0;
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom:0px;
+
+}
+
+
+
+.contentHome  {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center; 
+  width: 100%;
+}
+
+
+.Aktiv {
+  position: relative;
+  top: -50px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.Organisationen  {
+  position: relative;
+  top: -20px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center; 
+  width: 100%;
+}
+
+
+.videoText {
+  margin: 5px 0px;
+  width: 350px;
+  max-width: 100%;
+  padding: 3px;
+  padding-left: 5px;
+  text-decoration: none;
+  color: black;
+  background-color: yellowgreen;
+  border:1px solid green;
+}
+
+
+.Informationen {
+  position: relative;
+  top: 30px;
+  margin-bottom: 40px;
+  max-width: 100%;
+  border:0px solid red;
+  }
+
+.fake {
+  position: relative;
+  top: -20px;
+  max-width : 100%;
+  margin-bottom: 40px;
+}
+
+.Einl {
+  position: relative;
+  top: -15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  border: 0px solid red;
+}
+
+.Aerzte {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin:0px 50px ;
+
+}
+
+.K11 {
+
+  position: absolute;
+  max-width: 30%;
+  opacity: 0;
+  left: 5%;
+}
+
+.K12 {
+
+  position: relative;
+
+  width: 100%;
+ 
+  display: flex;
+  justify-self: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  opacity: 1;
+}
+
+.K2 {
+
+  position: relative;
+  width: 100%;
+
+  margin-bottom: 40px;
+ 
+
+}
+
+.Maske {
+  position: relative;
+
+  margin:0px 50px ;
+
+}
+
+.M11 {
+
+  position: absolute;
+  max-width: 30%;
+  opacity: 0;
+  left: 5%;
+}
+
+.M12 {
+
+  position: relative;
+  max-width: 100%;
+
+  display: flex;
+  justify-self: center;
+  margin: 10px;
+  opacity: 1;
+}
+
+.M2 {
+
+  position: relative;
+  max-width: 100%;
+
+  margin-bottom: 40px;
+}
+
+.Impfen {
+  position: relative;
+  margin:0px 50px ;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: flex-start;
+}
+
+.I11 {
+
+  position: absolute;
+  max-width: 20%;
+  opacity: 0;
+  left: 5%;
+}
+
+.I12 {
+
+  position: relative;
+  max-width: 100%;
+
+  display: flex;
+  justify-self: center;
+  margin: 10px;
+  opacity: 1;
+}
+
+.I2 {
+
+  position: relative;
+  max-width: 100%;
+
+
+  margin-bottom: 40px;
+}
+
+.Recht  {
+  position: relative;
+  margin: 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: center; 
+  width: 100%;
+}
+
+.R11 {
+
+  position: absolute;
+  max-width: 30%;
+  opacity: 0;
+  left: 5%;
+}
+
+.R12 {
+
+  position: relative;
+  max-width: 100%;
+
+  display: flex;
+  justify-self: center;
+  margin: 10px;
+  opacity: 1;
+}
+
+.R2 {
+
+  position: relative;
+  max-width: 100%;
+
+  margin-bottom: 40px;
+}
+
+.L11 {
+
+  position: relative;
+  max-width: 400px;
+  opacity: 1;
+  margin: 20px;
+}
+
+.E {
+
+  position: relative;
+  top: 0px;
+  left: 0px; 
+  width: 100%;
+  max-width: 650px;
+
+  margin-bottom: 40px;
+  border:0px solid red;
+}
+
+.G11 {
+
+  position: relative;
+
+  left: 5%;
+  max-width: 650px;
+  margin-bottom: 50px;
+}
+
+.Home {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+ 
+}
+
+.haupt {
+  position: relative;
+  width: 90%;
+  max-width: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  bottom: 0px;
+
+}
+
+.Kopf {
+  position: relative;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px 0px;
+}
+
+.Einleit  {
+  position: relative;
+  top: -20px;
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 500px;
+  border: 0px solid blue;
+}
+
+
+@media only screen and (min-width: 768px)
+{
+  .App {
+   
+
+    min-height: 100vh ;
+  
+  }
+
+.Home {
+  position: relative;
+
+}
+
+}
+
+@media only screen and (min-width: 1300px)
+{
+  .Home {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start;
+    height: 100%;
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .Einleitung {
+    position: relative;
+    top: -15px;
+
+    margin-bottom: 0px;
+    text-align: block;
+  }
+
+  .Kopf {
+    position: relative;
+    top: -50px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px 0px;
+  }
+
+
+
+  .fake {
+    position: relative; 
+    width : 900px;
+
+  }
+
+  .Aktiv {
+    position: relative;
+    top: 0px;  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .Organisationen  {
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    width: 500px;
+    margin: 0px 0px;
+  }
+
+  .Informationen {
+    position: relative;
+    top: 30px;
+    margin-bottom: 110px;
+    max-width: 100%;
+    border:0px solid red;
+    }
+
+  .Einl {
+    position: relative;
+    top: 30px;
+
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 500px;
+    border: 0px solid blue;
+  }
+
+
+
+
+  .G11 {
+
+    position: relative;
+    top: 30px;
+    left: 100px;
+    max-width: 650px;
+
+    margin-bottom: 50px;
+  }
+
+  .haupt {
+    position: relative;
+    min-width: 400px;
+    border:0px solid red;
+    margin:0px 50px ;
+
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 1700px)
+{
+  .homeApp {
+    position: relative;
+    left: -5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start;
+    height: 100%;
+
+    margin-bottom: 50px;
+  }
+
+  .homeAktiv {
+    position: relative;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start;
+    height: 100%;
+
+    margin-bottom: 50px;
+  }
+
+  .Recht  {
+    position: relative;
+    margin: 0px 50px;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    width: 100%;
+  }
+
+  .Aktiv {
+    position: relative;
+    top: 0px;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+
+  .Organisationen  {
+    position: relative;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center; 
+    width: 500px;
+    margin: 0px 50px;
+    border:1p solid red;
+  }
+
+  .Informationen {
+    position: relative;
+    top: 30px;
+    margin-bottom: 70px;
+    max-width: 100%;
+    border:0px solid red;
+    }
+  .Fake {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    left: 5%;
+    border:0px solid red;
+  }
+
+  .E {
+
+    position: relative;
+    top: 30px;
+    left: 80px;
+    width: 700px;
+    margin-bottom: 40px;
+    
+  }
+
+  .Lustig {
+    margin: 30px;
+  }
+
+  .Aerzte {
+
+    left: 5%;
+    margin:0px 50px ;
+
+  }
+  .K11 {
+
+    position: relative;
+    top: 30px;
+    max-width:700px;
+    min-width: 500px;
+    opacity: 1;
+    left: 5%;
+  } 
+
+  .K12 {
+    position: absolute;
+    left: 3%;
+    max-width: 100%;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 20px;
+    opacity: 0;
+  }
+  
+  .K2 {
+    position: relative;
+    top: 30px;
+    max-width:700px;
+    min-width: 550px;
+    left: 5%;
+
+    margin-bottom: 40px;
+
+  }
+
+  .Maske {
+    position: relative;
+    left: 5%;
+    margin:0px 50px ;
+
+  }
+
+  .M11 {
+
+    position: relative;
+    top: 30px;
+
+    min-width: 500px;
+    opacity: 1;
+    border:0px solid red;
+  } 
+
+  .M12 {
+  
+    position: absolute;
+    left: 3%;
+    max-width: 100%;
+    display: flex;
+    justify-self: center;
+    margin: 10px;
+    opacity: 0;
+  }
+  
+  .M2 {
+    position: relative;
+    top: 30px;
+    min-width: 500px;
+    left: 5%;
+    margin-bottom: 50px;
+    border:0px solid red;
+  }
+
+  .Impfen {
+    
+
+    left: 0%;
+    margin:0px 50px ;
+  
+  }
+  
+  .I11 {
+  
+    position: relative;
+    top: 30px;
+    max-width: 600px;
+    opacity: 1;
+    left: 0%;
+    margin-bottom: 40px;
+  }
+  
+  .I12 {
+  
+    position: absolute;
+    left: 5%;
+    max-width: 100%;
+    display: flex;
+    justify-self: center;
+    margin: 10px;
+    opacity: 0;
+  }
+  
+  .I2 {
+
+    position: relative;
+    top: 30px;
+    left: -0px;
+    max-width: 650px;
+    right: 200px;
+  }
+
+
+  
+  .R11 {
+  
+    position: relative;
+    top: 30px;
+    max-width: 550px;
+    opacity: 1;
+    left: 5%;
+    margin-bottom: 40px;
+  }
+  
+  .R12 {
+  
+    position: absolute;
+    left: 0px;
+    max-width: 80%;
+    display: flex;
+    justify-self: center;
+    margin: 10px;
+    opacity: 0;
+  }
+  
+  .R2 {
+
+    position: relative;
+    top: 30px;
+    left: 5%;
+    max-width: 550px;
+    border:0px solid red;
+    margin-bottom: 40px;
+  }
+
+
+  
+}
