@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Konrad-Ober/was-wenn.git/static/css/main.24eeadfc.chunk.css",
+    "main.js": "/Konrad-Ober/was-wenn.git/static/js/main.01b93e02.chunk.js",
+    "main.js.map": "/Konrad-Ober/was-wenn.git/static/js/main.01b93e02.chunk.js.map",
+    "runtime-main.js": "/Konrad-Ober/was-wenn.git/static/js/runtime-main.a316df42.js",
+    "runtime-main.js.map": "/Konrad-Ober/was-wenn.git/static/js/runtime-main.a316df42.js.map",
+    "static/js/2.7615f980.chunk.js": "/Konrad-Ober/was-wenn.git/static/js/2.7615f980.chunk.js",
+    "static/js/2.7615f980.chunk.js.map": "/Konrad-Ober/was-wenn.git/static/js/2.7615f980.chunk.js.map",
+    "index.html": "/Konrad-Ober/was-wenn.git/index.html",
+    "precache-manifest.a0c557689034652d031f1464d2064790.js": "/Konrad-Ober/was-wenn.git/precache-manifest.a0c557689034652d031f1464d2064790.js",
+    "service-worker.js": "/Konrad-Ober/was-wenn.git/service-worker.js",
+    "static/css/main.24eeadfc.chunk.css.map": "/Konrad-Ober/was-wenn.git/static/css/main.24eeadfc.chunk.css.map",
+    "static/js/2.7615f980.chunk.js.LICENSE.txt": "/Konrad-Ober/was-wenn.git/static/js/2.7615f980.chunk.js.LICENSE.txt",
+    "static/media/Info.JPG": "/Konrad-Ober/was-wenn.git/static/media/Info.4e5d3b36.JPG",
+    "static/media/fake.jpg": "/Konrad-Ober/was-wenn.git/static/media/fake.c1c91652.jpg",
+    "static/media/grundrechte.JPG": "/Konrad-Ober/was-wenn.git/static/media/grundrechte.a4392bfa.JPG",
+    "static/media/grundrechte2.JPG": "/Konrad-Ober/was-wenn.git/static/media/grundrechte2.104157ef.JPG",
+    "static/media/immun1.JPG": "/Konrad-Ober/was-wenn.git/static/media/immun1.b3079cbe.JPG",
+    "static/media/impfen1.JPG": "/Konrad-Ober/was-wenn.git/static/media/impfen1.c40ca868.JPG",
+    "static/media/kinder1.JPG": "/Konrad-Ober/was-wenn.git/static/media/kinder1.67cee3f7.JPG",
+    "static/media/kinder2.JPG": "/Konrad-Ober/was-wenn.git/static/media/kinder2.2ea8ac79.JPG",
+    "static/media/lachen.JPG": "/Konrad-Ober/was-wenn.git/static/media/lachen.0eb91d60.JPG",
+    "static/media/logo.svg": "/Konrad-Ober/was-wenn.git/static/media/logo.5d5d9eef.svg",
+    "static/media/zweifel1.JPG": "/Konrad-Ober/was-wenn.git/static/media/zweifel1.77870171.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a316df42.js",
+    "static/js/2.7615f980.chunk.js",
+    "static/css/main.24eeadfc.chunk.css",
+    "static/js/main.01b93e02.chunk.js"
+  ]
+}
